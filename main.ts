@@ -1,5 +1,5 @@
 let mySprite: Sprite = null
-game.onUpdateInterval(1000, function () {
+controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     mySprite = sprites.createProjectileFromSide(img`
         2 8 8 8 8 8 2 8 8 8 8 8 2 8 8 8 
         8 8 2 8 8 8 8 8 2 8 8 8 8 8 2 8 
